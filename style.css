@@ -14,9 +14,6 @@ body {
 }
 
 
-/* ==========================
-   Header e Navegação
-   ========================== */
 header {
     background: linear-gradient(90deg, #2A7B9B 0%, #57C785 100%);
     color: white;
@@ -72,9 +69,6 @@ nav a {
 }
 
 
-/* ==========================
-   Hero Section - Index
-   ========================== */
 .hero {
     background: linear-gradient(rgba(42, 123, 155, 1), rgba(87, 199, 133, 1)),
                 url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23f0f0f0" width="1200" height="600"/></svg>');
@@ -125,11 +119,11 @@ nav a {
 
 .cta-buttons {
     display: flex;
-    flex-direction: row; /* lado a lado */
-    gap: 1.5rem; /* espaço entre os botões */
-    justify-content: center; /* centraliza horizontalmente */
+    flex-direction: row; 
+    gap: 1.5rem; 
+    justify-content: center; 
     align-items: center;
-    flex-wrap: wrap; /* quebra em telas pequenas */
+    flex-wrap: wrap; 
     margin-top: 2rem;
 }
 
